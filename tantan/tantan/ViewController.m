@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextView *inputTextView;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 
 @end
 
@@ -16,13 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.inputTextView.layer.borderWidth = 1;
+    self.inputTextView.layer.borderColor = [[UIColor grayColor] CGColor];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)confimButtonClicked:(UIButton *)sender {
+    
+    UIViewController * controller = [[NSClassFromString(@"TTFeedbackViewController") alloc] init];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 

@@ -13,6 +13,7 @@
 		6022783E2065EEA000070703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6022783D2065EEA000070703 /* Assets.xcassets */; };
 		602278412065EEA000070703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6022783F2065EEA000070703 /* LaunchScreen.storyboard */; };
 		602278442065EEA000070703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 602278432065EEA000070703 /* main.m */; };
+		6022784C2065F4FA00070703 /* TTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6022784B2065F4FA00070703 /* TTFeedbackViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		602278402065EEA000070703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		602278422065EEA000070703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		602278432065EEA000070703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6022784A2065F4FA00070703 /* TTFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFeedbackViewController.h; sourceTree = "<group>"; };
+		6022784B2065F4FA00070703 /* TTFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFeedbackViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				602278352065EEA000070703 /* AppDelegate.m */,
 				602278372065EEA000070703 /* ViewController.h */,
 				602278382065EEA000070703 /* ViewController.m */,
+				6022784A2065F4FA00070703 /* TTFeedbackViewController.h */,
+				6022784B2065F4FA00070703 /* TTFeedbackViewController.m */,
 				6022783A2065EEA000070703 /* Main.storyboard */,
 				6022783D2065EEA000070703 /* Assets.xcassets */,
 				6022783F2065EEA000070703 /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				602278392065EEA000070703 /* ViewController.m in Sources */,
+				6022784C2065F4FA00070703 /* TTFeedbackViewController.m in Sources */,
 				602278442065EEA000070703 /* main.m in Sources */,
 				602278362065EEA000070703 /* AppDelegate.m in Sources */,
 			);
@@ -281,7 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA8WS26R8S;
 				INFOPLIST_FILE = tantan/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.live4iphone.tantan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,7 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA8WS26R8S;
 				INFOPLIST_FILE = tantan/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.live4iphone.tantan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
