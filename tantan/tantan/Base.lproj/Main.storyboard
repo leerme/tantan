@@ -37,7 +37,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="欢迎使用探探, 在使用过程中有疑问请&lt;a href=”tantanapp://feedback”&gt;反馈&lt;/a&gt;" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fvi-MP-9Rp">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="欢迎使用探探, 在使用过程中有疑问请&lt;a href=&quot;tantanapp://feedback&quot;&gt;反馈&lt;/a&gt;" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fvi-MP-9Rp">
                                 <rect key="frame" x="15" y="142" width="345" height="100"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -62,32 +62,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9Y-5s-S7S">
-                                <rect key="frame" x="15" y="342" width="345" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Fvi-MP-9Rp" secondAttribute="trailing" constant="15" id="5lz-OW-T3u"/>
-                            <constraint firstItem="v9Y-5s-S7S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="Csz-FJ-Tpm"/>
                             <constraint firstItem="VPi-if-roy" firstAttribute="top" secondItem="dYK-z0-yZl" secondAttribute="bottom" constant="30" id="Hfd-m9-eLO"/>
                             <constraint firstItem="Fvi-MP-9Rp" firstAttribute="top" secondItem="VPi-if-roy" secondAttribute="bottom" constant="30" id="bcc-rw-xq9"/>
                             <constraint firstItem="VPi-if-roy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="cmq-km-glv"/>
                             <constraint firstAttribute="trailing" secondItem="VPi-if-roy" secondAttribute="trailing" constant="15" id="iDp-TJ-lYG"/>
                             <constraint firstItem="Fvi-MP-9Rp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="rH0-5L-G2x"/>
                             <constraint firstItem="kyl-dv-gjB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tdx-x5-Wz2"/>
-                            <constraint firstItem="v9Y-5s-S7S" firstAttribute="top" secondItem="kyl-dv-gjB" secondAttribute="bottom" constant="50" id="v4u-y8-6Vv"/>
-                            <constraint firstAttribute="trailing" secondItem="v9Y-5s-S7S" secondAttribute="trailing" constant="15" id="vY7-4x-qFE"/>
                             <constraint firstItem="kyl-dv-gjB" firstAttribute="top" secondItem="Fvi-MP-9Rp" secondAttribute="bottom" constant="20" id="yVP-Zr-sCs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="探探" id="cxf-3B-l5g"/>
                     <connections>
                         <outlet property="inputTextView" destination="Fvi-MP-9Rp" id="tD0-8J-5WY"/>
-                        <outlet property="resultLabel" destination="v9Y-5s-S7S" id="Qc9-ci-2H7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

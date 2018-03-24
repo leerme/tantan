@@ -14,6 +14,7 @@
 		602278412065EEA000070703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6022783F2065EEA000070703 /* LaunchScreen.storyboard */; };
 		602278442065EEA000070703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 602278432065EEA000070703 /* main.m */; };
 		6022784C2065F4FA00070703 /* TTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6022784B2065F4FA00070703 /* TTFeedbackViewController.m */; };
+		602278522065FC6900070703 /* LYClickTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 602278512065FC6900070703 /* LYClickTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		602278432065EEA000070703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6022784A2065F4FA00070703 /* TTFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFeedbackViewController.h; sourceTree = "<group>"; };
 		6022784B2065F4FA00070703 /* TTFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFeedbackViewController.m; sourceTree = "<group>"; };
+		602278502065FC6900070703 /* LYClickTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYClickTextView.h; sourceTree = "<group>"; };
+		602278512065FC6900070703 /* LYClickTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYClickTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				602278352065EEA000070703 /* AppDelegate.m */,
 				602278372065EEA000070703 /* ViewController.h */,
 				602278382065EEA000070703 /* ViewController.m */,
+				602278502065FC6900070703 /* LYClickTextView.h */,
+				602278512065FC6900070703 /* LYClickTextView.m */,
 				6022784A2065F4FA00070703 /* TTFeedbackViewController.h */,
 				6022784B2065F4FA00070703 /* TTFeedbackViewController.m */,
 				6022783A2065EEA000070703 /* Main.storyboard */,
@@ -147,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602278522065FC6900070703 /* LYClickTextView.m in Sources */,
 				602278392065EEA000070703 /* ViewController.m in Sources */,
 				6022784C2065F4FA00070703 /* TTFeedbackViewController.m in Sources */,
 				602278442065EEA000070703 /* main.m in Sources */,
